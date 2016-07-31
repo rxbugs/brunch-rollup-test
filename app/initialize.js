@@ -1,3 +1,5 @@
+import { cube } from './maths.js';
+
 document.addEventListener('DOMContentLoaded', function() {
-  // do your setup here
+  console.log(cube(5));
 });
